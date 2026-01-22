@@ -59,56 +59,10 @@
     <section class="page-section" id="contact">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading">Demander une soumission</h2>
-                <h3 class="section-subheading">Vous avez des questions ? Vous pouvez nous joindre au 514-212-2193</h3>
+                <h2 class="section-heading">Merci !</h2>
             </div>
 
 
-            <form id="contactForm" action="https://formspree.io/f/xbdgrwle" method="POST">
-                <div class="row align-items-stretch mb-5">
-                    <input name="subject" type="hidden" value="Un message vous a été envoyé de votre site web {{ name }}" />
-                    <div class="col-md-6">
-
-
-                        <div class="form-group">
-                            <!-- Name input-->
-                            <input class="form-control" id="requestor-name" name="Nom" placeholder="Votre nom *" required />
-
-                        </div>
-
-                        <div class="form-group">
-                            <!-- Email address input-->
-                            <input class="form-control" id="email-address" name="Courriel" placeholder="Votre courriel *" required />
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label text-muted" for="Type-de-service">Pour quel type de service</label>
-
-                            <select class="form-control" id="Type-de-service" name="Type de service">
-                                <option value="Général">Général</option>
-                                <option value="Peinture">Peinture</option>
-                                <option value="Papier paint">Papier paint</option>
-                                <option value="Décoration">Décoration</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group mb-md-0">
-                            <!-- Phone number input-->
-                            <input class="form-control" id="phone-number" name="Téléphone" placeholder="Votre numéro de téléphone" />
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
-                            <textarea class="form-control" id="message" name="message" placeholder="votre question ou demander une soumission en nous décrivant votre projet *" data-sb-validations="required"></textarea>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <button class="btn btn-primary btn-xl text-uppercase" type="submit">SOUMETTRE</button>
-            </form>
 
         </div>
     </section>
@@ -127,14 +81,7 @@
             </div>
         </div>
     </footer>
-    <script>
-        window.onbeforeunload = () => {
-            for (const form of document.getElementsByTagName('form')) {
-                form.reset();
-            }
-        }
 
-    </script>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
