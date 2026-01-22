@@ -748,7 +748,7 @@ button.current {
     @media (min-width: 768px) {
         section#about.page-section.a-propos {
             padding: 10rem 0 !important;
-            background-image: url("../assets/img/top-gradient_02.png");
+            background-image: url("../assets/img/top-gradient_2.png");
             background-repeat: repeat-x;
             background-position: top left;
         }
