@@ -58,9 +58,9 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center mb-5">
                 <h2 class="section-heading">Demander une soumission</h2>
-                <h3 class="section-subheading">Vous avez des questions ? Vous pouvez nous joindre au 514-212-2193</h3>
+                <p class="text-label">Vous souhaitez parler avec quelqu'un ? Il nous fera plaisir de répondre à vos questions.<br /> Vous pouvez nous joindre au 514-212-2193</p>
             </div>
 
 
@@ -81,7 +81,7 @@
                             <input class="form-control" id="email-address" name="Courriel" placeholder="Votre courriel *" required />
                         </div>
                         <div class="form-group">
-                            <label class="form-label text-muted" for="Type-de-service">Pour quel type de service</label>
+                            <label class="form-label text-label" for="Type-de-service">Pour quel type de service</label>
 
                             <select class="form-control" id="Type-de-service" name="Type de service">
                                 <option value="Général">Général</option>
@@ -100,14 +100,20 @@
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <!-- Message input-->
-                            <textarea class="form-control" id="message" name="message" placeholder="votre question ou demander une soumission en nous décrivant votre projet *" data-sb-validations="required"></textarea>
-
+                            <label class="form-label text-label" for="message">
+                                Demandez une soumission en nous décrivant brièvement votre projet<br />
+                                ou posez nous votre question.
+                            </label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Message *" data-sb-validations="required"></textarea>
                         </div>
                     </div>
                 </div>
 
-
-                <button class="btn btn-primary btn-xl text-uppercase" type="submit">SOUMETTRE</button>
+                <div class="row">
+                    <div class="col py-5">
+                        <button class="btn btn-primary btn-xl text-uppercase float-end" type="submit">SOUMETTRE</button>
+                    </div>
+                </div>
             </form>
 
         </div>
@@ -136,13 +142,21 @@
 
     </script>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <div id="back-to-top-container">
+        <button type="button"
+                class="btn btn-floating"
+                id="btn-back-to-top">
+            <i class="bi bi-arrow-up-circle-fill text-gray fs-1"></i>
+        </button>
+    </div>
+
+    <script src="js/pe_scripts.js"></script>
+
+
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <!-- SB Forms JS                               * *
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>-->
+
 </body>
 </html>
