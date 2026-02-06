@@ -169,9 +169,9 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
 }
 
 .font-speciale {
-    font-family: "Hurricane", cursive;
+    font-family: "Rouge Script", cursive;
     font-size: 3.5rem;
-    line-height:3.5rem;
+    line-height: 3.5rem;
 }
 
 
