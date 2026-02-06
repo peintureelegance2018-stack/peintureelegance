@@ -187,9 +187,8 @@ $gradient-radial: radial-gradient(#273138ff, #e78d97ff, #e5a7aeff, #d7808aff, #7
     }
 
     .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-        font-size: 1rem;
-        font-weight: 400;
-        font-family: "Roboto", sans-serif;
+        font-size: 1.75rem;
+        font-weight: 500;
         margin-bottom: 4rem;
     }
 
@@ -409,10 +408,10 @@ section.bloc-infos-1 p span {
                 }
 
         header.masthead .masthead-heading {
-            font-size: 2.25rem;
+            font-size: 2.25rem; /* 2.25rem*/
             line-height: 2.25rem;
             margin-bottom: 1rem;
-            font-family: "Urbanist", sans-serif;
+            font-family:"Urbanist", sans-serif;
             font-weight: 400;
             text-shadow: 1px 1px 5px #932a48;
         }
